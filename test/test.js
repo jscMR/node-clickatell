@@ -4,14 +4,16 @@ var should = require('should');
 var Clickatell = require('../index');
 
 describe('node-clickatell node module', function () {
-  it('must have auth_token property', function () {
+  it('must have required properties', function () {
 
-    var clickatell = new Clickatell({auth_token : 'W0p2vux4LgskwKRIc76WVUouarRPPfW88giUMYg5fourpk'});
-
-    clickatell.sendSms("hola",['34615131085'],function(res){
-      console.log(res);
+    var clickatell = new Clickatell({
+      user : 'foo',
+      password:'bar',
+      api_id : '123456'
     });
 
-    clickatell.options.should.have.property('auth_token');
+    clickatell.options.should.have.property('user');
+    clickatell.options.should.have.property('password');
+    clickatell.options.should.have.property('api_id');
   });
 });

@@ -1,6 +1,6 @@
 {
   "name": "node-clickatell",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "description": "Clickatell API client library for nodejs",
   "homepage": "https://github.com/Manyroots/node-clickatell.git",
   "author": {
@@ -20,7 +20,9 @@
     "api",
     "client"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.51.0"
+  },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
