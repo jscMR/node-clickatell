@@ -20,9 +20,7 @@
     "api",
     "client"
   ],
-  "dependencies": {
-    "request": "^2.51.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
