@@ -13,9 +13,15 @@ $ npm install --save node-clickatell
 ## Usage
 
 ```js
-var node-clickatell = require('node-clickatell');
+var clickatell = new Clickatell({
+  user : '[Your user]',
+  password:'[Your password]',
+  api_id : '[Your api ID]'
+});
 
-node-clickatell('Rainbow');
+clickatell.sendmsg("foo",['ToPhoneNumber'],function(res){
+  console.log(res); // ID: 4c640d23a882b331563a2a5dcab258a8
+});
 ```
 
 
