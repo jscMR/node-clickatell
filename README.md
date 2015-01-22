@@ -1,6 +1,6 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> Clickatell API client library for nodejs
+> [Clickatell](http://www.clickatell.com) API client library for nodejs
 
 
 ## Install
@@ -19,7 +19,7 @@ var clickatell = new Clickatell({
   api_id : '[Your api ID]'
 });
 
-clickatell.sendmsg("foo",['ToPhoneNumber'],function(res){
+clickatell.sendmsg("message to send",['ToPhoneNumber'],function(res){
   console.log(res); // ID: 4c640d23a882b331563a2a5dcab258a8
 });
 ```
