@@ -23,6 +23,7 @@ module.exports = function (grunt) {
     },
     mochacli: {
       options: {
+        require : ['should'],
         reporter: 'nyan',
         bail: true
       },
@@ -44,5 +45,5 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['jshint', 'mochacli']);
+  grunt.registerTask('default', ['mochacli']);
 };
