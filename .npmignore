@@ -1,0 +1,11 @@
+test
+lib-cov
+coverage
+.gitmodules
+.travis.yml
+History.md
+test/
+support/
+benchmarks/
+examples/
+docs/

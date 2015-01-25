@@ -1,6 +1,6 @@
 {
   "name": "node-clickatell",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "description": "Clickatell API client library for nodejs",
   "homepage": "https://github.com/Manyroots/node-clickatell.git",
   "author": {
@@ -8,7 +8,10 @@
     "email": "info@manyroots.es",
     "url": "http://www.manyroots.es"
   },
-  "repository": "Manyroots/node-clickatell",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manyroots/node-clickatell"
+  },
   "license": "MIT",
   "files": [
     "index.js"
@@ -34,7 +37,11 @@
     "should": "^4.6.1",
     "time-grunt": "^1.0.0"
   },
+  "engines": [
+    "node >=0.6.0"
+  ],
   "scripts": {
     "test": "grunt"
-  }
+  },
+  "main": "./lib/clickatell"
 }
