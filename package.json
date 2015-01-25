@@ -1,6 +1,6 @@
 {
   "name": "node-clickatell",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "description": "Clickatell API client library for nodejs",
   "homepage": "https://github.com/Manyroots/node-clickatell.git",
   "author": {
