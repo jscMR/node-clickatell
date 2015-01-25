@@ -13,9 +13,6 @@
     "url": "https://github.com/Manyroots/node-clickatell"
   },
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "node-clickatell",
     "clickatell",
@@ -40,6 +37,7 @@
   "engines": [
     "node >=0.6.0"
   ],
+  "main" : "./lib/clickatell",
   "scripts": {
     "test": "grunt"
   },
