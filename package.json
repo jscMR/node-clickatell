@@ -21,7 +21,9 @@
     "client"
   ],
   "dependencies": {
-    "request": "^2.51.0"
+    "request": "^2.51.0",
+    "soap": "^0.6.1",
+    "xml2json": "^0.5.1"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
