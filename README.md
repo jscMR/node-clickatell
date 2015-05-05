@@ -35,7 +35,7 @@ MIT © [ManyRoots](http://www.manyroots.es)
 
 [npm-url]: https://npmjs.org/package/node-clickatell
 [npm-image]: https://badge.fury.io/js/node-clickatell.svg
-[travis-url]: https://travis-ci.org/Manyroots/node-clickatell
-[travis-image]: https://travis-ci.org/Manyroots/node-clickatell.svg?branch=master
-[daviddm-url]: https://david-dm.org/Manyroots/node-clickatell.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/Manyroots/node-clickatell
+[travis-url]: https://travis-ci.org/jscMR/node-clickatell
+[travis-image]: https://travis-ci.org/jscMR/node-clickatell.svg?branch=master
+[daviddm-url]: https://david-dm.org/jscMR/node-clickatell.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/jscMR/node-clickatell
